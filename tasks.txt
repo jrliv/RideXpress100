@@ -1,0 +1,4 @@
+Tasks completed by me on the project
+
+1. Setup the database connection string.
+2. Added code for the Transmission and Daily Rate properties on the Cars.aspx listing.
