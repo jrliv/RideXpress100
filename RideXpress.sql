@@ -30,3 +30,21 @@ CREATE TABLE [dbo].[Car](
 GO
 SET ANSI_PADDING OFF
 GO
+
+/****** Object:  Table [dbo].[IncidentReport]    Script Date: 2/2/2018 2:41 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE TABLE [dbo].[IncidentReport](
+	[ReportID] [int] IDENTITY(1,1) NOT NULL,
+	[CarID] [int] NOT NULL,
+	[DateOfIncident] [datetime] NOT NULL,
+	[ReportName] [varchar](50) NOT NULL,
+	[ReportDescription] [varchar](200) NOT NULL,
+	[DateOfReport] [datetime] NOT NULL,
+	PRIMARY KEY (ReportID)
+)
+GO
