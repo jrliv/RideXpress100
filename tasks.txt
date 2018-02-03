@@ -4,3 +4,5 @@ Tasks completed by me on the project
 2. Added code for the Transmission and Daily Rate properties on the Cars.aspx listing.
 3. Created Use Case diagram for the Incident Report Management system and added to the SRS doc.
 4. Added SQL for creating the IncidentReport table and added the table to the RideXpress database.
+5. Created foreign key relationship between the Car and IncidentReport tables using CarID.
+6. Created Entity Relationship diagram and added to the SDD.
