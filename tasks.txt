@@ -6,3 +6,5 @@ Tasks completed by me on the project
 4. Added SQL for creating the IncidentReport table and added the table to the RideXpress database.
 5. Created foreign key relationship between the Car and IncidentReport tables using CarID.
 6. Created Entity Relationship diagram and added to the SDD.
+7. Created and added the report view model. Added the model requirements and some of the code.
+8. Created and added the report data access layer. Started adding the code.
