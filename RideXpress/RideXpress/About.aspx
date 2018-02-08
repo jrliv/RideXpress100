@@ -18,7 +18,8 @@
                         <br />
                         With the Automated Car Rental System (ARCS) employees will be able to report and keep track 
                         of all the vehicles in the inventory, while customers will be able to log in at any time to 
-                        see what vehicles are available to them! Renting cars are of the past, carsharing is the future!                   
+                        see what vehicles are available to them! Renting cars are of the past, carsharing is the future!  
+                        <br />
                     </p>
                 </div>
             </div>
