@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace RideXpress.Models
 {
     // This is a POCO that represents the model of a report.
-    class ReportViewModel
+    public class ReportViewModel
     {
         public int ReportID { get; set; }
         public int CarID { get; set; }
