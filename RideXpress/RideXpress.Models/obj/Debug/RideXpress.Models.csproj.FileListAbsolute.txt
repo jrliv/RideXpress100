@@ -14,7 +14,11 @@ F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress.Models\obj\De
 F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.pdb
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\bin\Debug\RideXpress.Models.dll
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\bin\Debug\RideXpress.Models.pdb
-Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.csprojResolveAssemblyReference.cache
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.csproj.CoreCompileInputs.cache
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.dll
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.pdb
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\bin\Debug\RideXpress.Models.dll
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\bin\Debug\RideXpress.Models.pdb
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.csproj.CoreCompileInputs.cache
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.dll
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.pdb

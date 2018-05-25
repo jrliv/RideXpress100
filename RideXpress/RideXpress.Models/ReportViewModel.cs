@@ -12,10 +12,10 @@ namespace RideXpress.Models
         public int ReportID { get; set; }
         public int CarID { get; set; }
         public string CarName { get; set; } // Property to represent the name of the car.
-        public DateTime GetDateOfIncident { get; }
+        public DateTime DateOfIncident { get; set; }
         public string ReportName { get; set; }
         public string ReportDescription { get; set; }
-        public DateTime GetDateOfReport { get; }
+        public DateTime DateOfReport { get; set; }
     }
 }
 

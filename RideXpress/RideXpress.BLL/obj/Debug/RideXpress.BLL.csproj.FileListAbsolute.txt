@@ -25,6 +25,7 @@ F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress.BLL\bin\Debug
 F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.csprojResolveAssemblyReference.cache
 F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.dll
 F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.pdb
+Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.csproj.CoreCompileInputs.cache
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.BLL.dll
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.BLL.pdb
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.DAL.dll
@@ -32,6 +33,15 @@ Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\De
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.DAL.pdb
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.Models.pdb
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.csprojResolveAssemblyReference.cache
-Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.csproj.CoreCompileInputs.cache
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.dll
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.pdb
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.BLL.dll
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.BLL.pdb
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.DAL.dll
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.Models.dll
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.DAL.pdb
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\bin\Debug\RideXpress.Models.pdb
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.csprojResolveAssemblyReference.cache
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.csproj.CoreCompileInputs.cache
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.dll
+\\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.BLL\obj\Debug\RideXpress.BLL.pdb

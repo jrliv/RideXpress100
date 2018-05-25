@@ -102,6 +102,7 @@ F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress\bin\RideXpres
 F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress\obj\Debug\RideXpress.csprojResolveAssemblyReference.cache
 F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress\obj\Debug\RideXpress-StarterKit.dll
 F:\Documents\Development\Projects\RideXpress\RideXpress\RideXpress\obj\Debug\RideXpress-StarterKit.pdb
+Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\obj\Debug\RideXpress.csproj.CoreCompileInputs.cache
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\bin\roslyn\csc.exe
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -126,6 +127,5 @@ Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\bin\RideXp
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\bin\RideXpress.DAL.pdb
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\obj\Debug\RideXpress.csprojResolveAssemblyReference.cache
-Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\obj\Debug\RideXpress.csproj.CoreCompileInputs.cache
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\obj\Debug\RideXpress-StarterKit.dll
 Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress\obj\Debug\RideXpress-StarterKit.pdb

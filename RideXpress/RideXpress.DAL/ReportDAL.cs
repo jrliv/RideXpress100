@@ -37,11 +37,10 @@ namespace RideXpress.DAL
                         {
                             ReportID = Convert.ToInt32(reader["ReportID"]),
                             CarID = Convert.ToInt32(reader["CarID"]),
-                            CarName = reader["Make"].ToString(),
-                            //GetDateOfIncident = reader["Model"].ToString(),
-                            ReportName = reader["Trim"].ToString(),
-                            ReportDescription = reader["Description"].ToString(),
-                            //GetDateOfReport = Convert.ToInt32(reader["CityMPG"]),
+                            DateOfIncident = Convert.ToDateTime(reader["DateOfIncident"]),
+                            ReportName = reader["ReportName"].ToString(),
+                            ReportDescription = reader["ReportDescription"].ToString(),
+                            DateOfReport = Convert.ToDateTime(reader["DateOfReport"])
                         };
                         reports.Add(temp);
                     }
@@ -50,21 +49,72 @@ namespace RideXpress.DAL
             return reports;
         }
 
-        //public ReportViewModel GetReportById(int id)
-        //{
+        public ReportViewModel GetReportById(int id)
+        {
+            ReportViewModel report = new ReportViewModel();
+            string sqlQuery = "SELECT * FROM Report WHERE ReportID=@ReportID";
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
+            {
+                con.Open();
+                cmd.Parameters.Add("@ReportID", SqlDbType.Int).Value = id;
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        report.ReportID = Convert.ToInt32(reader["ReportID"]);
+                        report.CarID = Convert.ToInt32(reader["CarID"]);
+                        report.DateOfIncident = Convert.ToDateTime(reader["DateOfIncident"]);
+                        report.ReportName = reader["ReportName"].ToString();
+                        report.ReportDescription = reader["ReportDescription"].ToString();
+                        report.DateOfReport = Convert.ToDateTime(reader["DateOfReport"]);
+                    }
+                }
+            }
+            return report;
 
-        //}
-        //public int EditCar(ReportViewModel edit)
-        //{
-
-        //}
-        //public int AddCar(ReportViewModel add)
-        //{
-
-        //}
-        //public int DeleteCar(int id)
-        //{
-
-        //}
+        }
+        public int EditReport(ReportViewModel edit)
+        {
+            string sqlQuery = "UPDATE Report SET CarID=@CarID, DateOfIncident=@DateOfIncident, ReportName=@ReportName, " + "ReportDescription=@ReportDescription, DateOfReport=@DateOfReport";
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
+            {
+                con.Open();
+                cmd.Parameters.Add("@CarID", SqlDbType.Int).Value = edit.CarID;
+                cmd.Parameters.Add("@DateOfIncident", SqlDbType.VarChar).Value = edit.DateOfIncident;
+                cmd.Parameters.Add("@ReportName", SqlDbType.VarChar).Value = edit.ReportName;
+                cmd.Parameters.Add("@ReportDescription", SqlDbType.VarChar).Value = edit.ReportDescription;
+                cmd.Parameters.Add("@DateOfReport", SqlDbType.VarChar).Value = edit.DateOfReport;
+                return cmd.ExecuteNonQuery();
+            }
+        }
+        public int AddReport(ReportViewModel add)
+        {
+            string sqlQuery = "INSERT INTO Report (CarID, DateOfIncident, ReportName, ReportDescription, DateOfReport), " + 
+                "VALUES (@CarID, @DateOfIncident, @ReportName, @ReportDescription, @DateOfReport)";
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
+            {
+                con.Open();
+                cmd.Parameters.Add("@CarID", SqlDbType.Int).Value = add.CarID;
+                cmd.Parameters.Add("@DateOfIncident", SqlDbType.VarChar).Value = add.DateOfIncident;
+                cmd.Parameters.Add("@ReportName", SqlDbType.VarChar).Value = add.ReportName;
+                cmd.Parameters.Add("@ReportDescription", SqlDbType.VarChar).Value = add.ReportDescription;
+                cmd.Parameters.Add("@DateOfReport", SqlDbType.VarChar).Value = add.DateOfReport;
+                return cmd.ExecuteNonQuery();
+            }
+        }
+        public int DeleteReport(int id)
+        {
+            string sqlQuery = "DELETE FROM Report WHERE ReportID=@ReportID";
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
+            {
+                con.Open();
+                cmd.Parameters.Add("@ReportID", SqlDbType.Int).Value = id;
+                return cmd.ExecuteNonQuery();
+            }
+        }
     }
 }
