@@ -9,3 +9,4 @@ Tasks completed by me on the project
 7. Created and added the report view model. Added the model requirements and some of the code.
 8. Created and added the report data access layer. Started adding the code.
 9. Added code for CRUD operations to the ReportDAL.
+10. Created class diagrams.
