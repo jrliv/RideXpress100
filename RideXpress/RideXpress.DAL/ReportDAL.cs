@@ -52,7 +52,7 @@ namespace RideXpress.DAL
         public ReportViewModel GetReportById(int id)
         {
             ReportViewModel report = new ReportViewModel();
-            string sqlQuery = "SELECT * FROM Report WHERE ReportID=@ReportID";
+            string sqlQuery = "SELECT * FROM IncidentReport WHERE ReportID=@ReportID";
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
             {
@@ -76,7 +76,7 @@ namespace RideXpress.DAL
         }
         public int EditReport(ReportViewModel edit)
         {
-            string sqlQuery = "UPDATE Report SET CarID=@CarID, DateOfIncident=@DateOfIncident, ReportName=@ReportName, " + "ReportDescription=@ReportDescription, DateOfReport=@DateOfReport";
+            string sqlQuery = "UPDATE IncidentReport SET CarID=@CarID, DateOfIncident=@DateOfIncident, ReportName=@ReportName, " + "ReportDescription=@ReportDescription, DateOfReport=@DateOfReport";
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
             {
@@ -91,7 +91,7 @@ namespace RideXpress.DAL
         }
         public int AddReport(ReportViewModel add)
         {
-            string sqlQuery = "INSERT INTO Report (CarID, DateOfIncident, ReportName, ReportDescription, DateOfReport), " + 
+            string sqlQuery = "INSERT INTO IncidentReport (CarID, DateOfIncident, ReportName, ReportDescription, DateOfReport), " + 
                 "VALUES (@CarID, @DateOfIncident, @ReportName, @ReportDescription, @DateOfReport)";
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
@@ -107,7 +107,7 @@ namespace RideXpress.DAL
         }
         public int DeleteReport(int id)
         {
-            string sqlQuery = "DELETE FROM Report WHERE ReportID=@ReportID";
+            string sqlQuery = "DELETE FROM IncidentReport WHERE ReportID=@ReportID";
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
             {
