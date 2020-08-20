@@ -11,3 +11,5 @@ Tasks completed by me on the project
 9. Added code for CRUD operations to the ReportDAL.
 10. Created class diagrams.
 11. Created Reports view page and added methods for code behind.
+12. Create Add Reports and Edit Reports pages. Added code to ReportDAL. Also create the sequence diagram.
+13. Added validation to the Add Reports page.
