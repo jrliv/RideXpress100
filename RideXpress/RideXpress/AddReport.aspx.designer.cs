@@ -31,15 +31,6 @@ namespace RideXpress_StarterKit {
         protected global::System.Web.UI.WebControls.DropDownList ddlRide;
         
         /// <summary>
-        /// RideRequired control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RideRequired;
-        
-        /// <summary>
         /// lblIncidentDate control.
         /// </summary>
         /// <remarks>
@@ -56,15 +47,6 @@ namespace RideXpress_StarterKit {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbIncidentDate;
-        
-        /// <summary>
-        /// DateRequired control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator DateRequired;
         
         /// <summary>
         /// lblReportName control.
@@ -85,15 +67,6 @@ namespace RideXpress_StarterKit {
         protected global::System.Web.UI.WebControls.TextBox tbReportName;
         
         /// <summary>
-        /// NameOfReportRequired control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator NameOfReportRequired;
-        
-        /// <summary>
         /// lblDescription control.
         /// </summary>
         /// <remarks>
@@ -110,15 +83,6 @@ namespace RideXpress_StarterKit {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox tbDescription;
-        
-        /// <summary>
-        /// Description control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator Description;
         
         /// <summary>
         /// btnAddReport control.
