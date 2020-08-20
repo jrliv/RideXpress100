@@ -13,3 +13,6 @@ Tasks completed by me on the project
 11. Created Reports view page and added methods for code behind.
 12. Create Add Reports and Edit Reports pages. Added code to ReportDAL. Also create the sequence diagram.
 13. Added validation to the Add Reports page.
+14. Added validation to the Edit Reports page.
+15. Installed IIS.
+16. Deployed the project locally via Visual Studio and IIS.

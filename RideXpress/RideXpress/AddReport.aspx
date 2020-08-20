@@ -18,12 +18,7 @@
                         <asp:DropDownList ID="ddlRide" runat="server" CssClass="form-control"></asp:DropDownList>
                         <div class="has-error">
                             <span class="help-block">
-                                <span class="help-block">
-                                    <span class="help-block">
-                                        <asp:RequiredFieldValidator ID="RideRequired" runat="server" ErrorMessage="Ride is Required"
-                                            ControlToValidate="ddlRide" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
-                                    </span>
-                                </span>
+                                <asp:RequiredFieldValidator ID="RideRequired" runat="server" ErrorMessage="Ride is Required" ControlToValidate="ddlRide" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                             </span>
                         </div>
                     </div>
@@ -35,12 +30,8 @@
                         <asp:TextBox ID="tbIncidentDate" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
                         <div class="has-error">
                             <span class="help-block">
-                                <span class="help-block">
-                                    <span class="help-block">
-                                        <asp:RequiredFieldValidator ID="DateRequired" runat="server" ErrorMessage="Date is Required"
-                                            ControlToValidate="tbIncidentDate" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
-                                    </span>
-                                </span>
+                                <asp:RequiredFieldValidator ID="DateRequired" runat="server" ErrorMessage="Date is Required"
+                                    ControlToValidate="tbIncidentDate" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                             </span>
                         </div>
                     </div>
@@ -52,12 +43,8 @@
                         <asp:TextBox ID="tbReportName" runat="server" CssClass="form-control" TextMode="SingleLine"></asp:TextBox>
                         <div class="has-error">
                             <span class="help-block">
-                                <span class="help-block">
-                                    <span class="help-block">
-                                        <asp:RequiredFieldValidator ID="NameOfReportRequired" runat="server" ErrorMessage="Name of Report is Required"
-                                            ControlToValidate="tbReportName" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
-                                    </span>
-                                </span>
+                                <asp:RequiredFieldValidator ID="NameOfReportRequired" runat="server" ErrorMessage="Name of Report is Required"
+                                    ControlToValidate="tbReportName" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                             </span>
                         </div>
                     </div>
@@ -69,12 +56,8 @@
                         <asp:TextBox ID="tbDescription" runat="server" CssClass="form-control" TextMode="MultiLine"></asp:TextBox>
                         <div class="has-error">
                             <span class="help-block">
-                                <span class="help-block">
-                                    <span class="help-block">
-                                        <asp:RequiredFieldValidator ID="Description" runat="server" ErrorMessage="Description is Required"
-                                            ControlToValidate="tbDescription" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
-                                    </span>
-                                </span>
+                                <asp:RequiredFieldValidator ID="Description" runat="server" ErrorMessage="Description is Required"
+                                    ControlToValidate="tbDescription" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                             </span>
                         </div>
                     </div>
