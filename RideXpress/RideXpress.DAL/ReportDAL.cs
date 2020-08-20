@@ -91,7 +91,7 @@ namespace RideXpress.DAL
         }
         public int AddReport(ReportViewModel add)
         {
-            string sqlQuery = "INSERT INTO IncidentReport (CarID, DateOfIncident, ReportName, ReportDescription, DateOfReport), " + 
+            string sqlQuery = "INSERT INTO IncidentReport (CarID, DateOfIncident, ReportName, ReportDescription, DateOfReport)" + 
                 "VALUES (@CarID, @DateOfIncident, @ReportName, @ReportDescription, @DateOfReport)";
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(sqlQuery, con))

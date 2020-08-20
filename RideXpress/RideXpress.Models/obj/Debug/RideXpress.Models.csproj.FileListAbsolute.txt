@@ -23,3 +23,9 @@ Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj
 \\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.csproj.CoreCompileInputs.cache
 \\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.dll
 \\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.pdb
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\bin\Debug\RideXpress.Models.dll
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\bin\Debug\RideXpress.Models.pdb
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.csprojAssemblyReference.cache
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.csproj.CoreCompileInputs.cache
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.dll
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.Models\obj\Debug\RideXpress.Models.pdb

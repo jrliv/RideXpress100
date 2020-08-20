@@ -35,3 +35,12 @@ Z:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\De
 \\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\Debug\RideXpress.DAL.csproj.CoreCompileInputs.cache
 \\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\Debug\RideXpress.DAL.dll
 \\jldtw10\F\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\Debug\RideXpress.DAL.pdb
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\bin\Debug\RideXpress.DAL.dll
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\bin\Debug\RideXpress.DAL.pdb
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\bin\Debug\RideXpress.Models.dll
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\bin\Debug\RideXpress.Models.pdb
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\Debug\RideXpress.DAL.csprojAssemblyReference.cache
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\Debug\RideXpress.DAL.csproj.CoreCompileInputs.cache
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\Debug\RideXpress.DAL.csproj.CopyComplete
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\Debug\RideXpress.DAL.dll
+E:\Documents\Development\Projects\RideXpress100\RideXpress\RideXpress.DAL\obj\Debug\RideXpress.DAL.pdb
